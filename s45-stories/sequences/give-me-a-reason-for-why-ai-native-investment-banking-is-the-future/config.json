@@ -1,0 +1,109 @@
+{
+  "slug": "give-me-a-reason-for-why-ai-native-investment-banking-is-the-future",
+  "type": "thesis",
+  "ask": null,
+  "scope_attestation": "private_markets_only",
+  "highlight_title": "Building s45",
+  "profile": {
+    "handle": "@s45"
+  },
+  "frames": [
+    {
+      "n": 1,
+      "role": "hook",
+      "blocks": [
+        {
+          "text": "Why markets need AI-native investment banking strategies?\n",
+          "size": "med"
+        }
+      ],
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "sticker": null,
+      "background": {
+        "type": "note"
+      },
+      "text_position": "top"
+    },
+    {
+      "n": 2,
+      "role": "argument",
+      "blocks": [
+        {
+          "text": "It's the future as ai-native investment banking is a new-age concept that automizes the financial filings of documents such as DRHP and RHP."
+        }
+      ],
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "sticker": null,
+      "continues": true
+    },
+    {
+      "n": 3,
+      "role": "argument",
+      "blocks": [
+        {
+          "text": "[argument] write this beat"
+        }
+      ],
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "sticker": null,
+      "background": {
+        "type": "field"
+      },
+      "text_position": "top"
+    },
+    {
+      "n": 4,
+      "role": "argument",
+      "blocks": [
+        {
+          "text": "[argument] write this beat"
+        }
+      ],
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "sticker": null,
+      "continues": true
+    },
+    {
+      "n": 5,
+      "role": "evidence",
+      "blocks": [
+        {
+          "text": "[evidence] write this beat"
+        }
+      ],
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "sticker": null,
+      "background": {
+        "type": "field"
+      },
+      "text_position": "top"
+    },
+    {
+      "n": 6,
+      "role": "counter",
+      "blocks": [
+        {
+          "text": "[counter] write this beat"
+        }
+      ],
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "sticker": null,
+      "background": {
+        "type": "field"
+      },
+      "text_position": "top"
+    }
+  ]
+}

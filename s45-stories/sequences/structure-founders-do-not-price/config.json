@@ -1,0 +1,174 @@
+{
+  "slug": "structure-founders-do-not-price",
+  "type": "private_markets",
+  "ask": null,
+  "scope_attestation": "private_markets_only",
+  "highlight_title": "Private markets",
+  "profile": {
+    "handle": "@s45"
+  },
+  "frames": [
+    {
+      "n": 1,
+      "role": "hook",
+      "blocks": [
+        {
+          "text": "Founders are being offered structure they are not pricing."
+        },
+        {
+          "text": "The headline number holds. What sits underneath it has moved.",
+          "size": "med",
+          "highlights": [
+            {
+              "text": "has moved",
+              "style": "underline"
+            }
+          ]
+        }
+      ],
+      "background": {
+        "type": "note"
+      },
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "text_position": "top",
+      "sticker": null
+    },
+    {
+      "n": 2,
+      "role": "read",
+      "blocks": [
+        {
+          "text": "Headline valuations held. The terms underneath did not."
+        }
+      ],
+      "background": {
+        "type": "field"
+      },
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "text_position": "top",
+      "sticker": null,
+      "chart": {
+        "type": "line",
+        "title": "Headline vs structured share",
+        "unit": "%",
+        "labels": [
+          "Q1 25",
+          "Q2 25",
+          "Q3 25",
+          "Q4 25",
+          "Q1 26",
+          "Q2 26"
+        ],
+        "series": [
+          {
+            "name": "Median pre-money, indexed",
+            "values": [
+              100,
+              99,
+              101,
+              100,
+              102,
+              101
+            ],
+            "color_index": 1
+          },
+          {
+            "name": "Rounds carrying structure",
+            "values": [
+              4,
+              6,
+              9,
+              11,
+              14,
+              18
+            ],
+            "color_index": 0
+          }
+        ],
+        "source": "s45 deal tracker, 380 disclosed private rounds to 30 June 2026."
+      }
+    },
+    {
+      "n": 3,
+      "role": "read",
+      "blocks": [
+        {
+          "text": "It is incomplete, because the price is no longer where the negotiation is."
+        }
+      ],
+      "source_line": null,
+      "sticker": null,
+      "background": {
+        "type": "field"
+      },
+      "text_position": "top",
+      "artifact": null,
+      "artifact_pos": null
+    },
+    {
+      "n": 4,
+      "role": "mechanism",
+      "blocks": [
+        {
+          "text": "A preference stack, a ratchet, and a participation right are all price."
+        },
+        {
+          "text": "None of them appear in the number a founder repeats at dinner.",
+          "size": "med"
+        }
+      ],
+      "background": {
+        "type": "field"
+      },
+      "artifact": "model-three-price-cases.png",
+      "artifact_pos": "lower",
+      "source_line": null,
+      "text_position": "top",
+      "sticker": null
+    },
+    {
+      "n": 5,
+      "role": "mechanism",
+      "continues": true,
+      "blocks": [
+        {
+          "text": "Structure is how an investor holds a valuation without believing it.",
+          "size": "med",
+          "highlights": [
+            {
+              "text": "without believing it",
+              "style": "underline"
+            }
+          ]
+        }
+      ],
+      "source_line": null,
+      "sticker": null
+    },
+    {
+      "n": 6,
+      "role": "implication",
+      "blocks": [
+        {
+          "text": "If you are raising this quarter, model the exit at three outcomes, not one."
+        },
+        {
+          "text": "The term you skim is the one that decides what you keep.",
+          "size": "med"
+        }
+      ],
+      "background": {
+        "type": "field"
+      },
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "text_position": "top",
+      "sticker": null
+    }
+  ]
+}

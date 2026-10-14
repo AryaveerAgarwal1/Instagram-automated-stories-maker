@@ -1,0 +1,32 @@
+{
+  "_comment": "Active and retired asks. Two permitted shapes, both non-keyword. A cta config's destination must match an active entry here.",
+  "asks": [
+    {
+      "id": "research-ai-revenue-quality",
+      "status": "active",
+      "shape": "link",
+      "destination": "s45.example/research/ai-revenue-quality",
+      "situation": "you are diligencing an AI-native company this quarter",
+      "artifact": "The AI revenue quality note",
+      "note": "No signup wall. Points to a document, not to a result."
+    },
+    {
+      "id": "careers-associate",
+      "status": "active",
+      "shape": "email",
+      "destination": "careers@s45.example",
+      "situation": "you have done two years of coverage and want to build the desk",
+      "artifact": "A named human",
+      "note": "It goes to a person."
+    },
+    {
+      "id": "coadvisory-intro",
+      "status": "retired",
+      "shape": "email",
+      "destination": "partners@s45.example",
+      "situation": "you are a co-advisor on a cross-border process",
+      "artifact": "A named partner",
+      "note": "Retired pending counsel review of the wording."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "inference-cost-is-not-cogs",
+  "type": "thesis",
+  "ask": null,
+  "scope_attestation": "private_markets_only",
+  "highlight_title": "How we think",
+  "profile": {
+    "handle": "@s45"
+  },
+  "frames": [
+    {
+      "n": 1,
+      "role": "hook",
+      "blocks": [
+        {
+          "text": "Most diligence still books inference cost as cost of goods."
+        },
+        {
+          "text": "For an AI-native company in its first two years, it behaves more like R&D.",
+          "size": "med",
+          "highlights": [
+            {
+              "text": "more like R&D",
+              "style": "underline"
+            }
+          ]
+        }
+      ],
+      "background": {
+        "type": "note"
+      },
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "text_position": "top",
+      "sticker": null
+    },
+    {
+      "n": 2,
+      "role": "argument",
+      "continues": true,
+      "blocks": [
+        {
+          "text": "That one line item changes how the whole business gets valued."
+        }
+      ],
+      "source_line": null,
+      "sticker": null
+    },
+    {
+      "n": 3,
+      "role": "argument",
+      "blocks": [
+        {
+          "text": "Cost of goods is meant to scale with revenue and stay roughly flat per unit."
+        },
+        {
+          "text": "Early inference spend does the opposite. It falls hard as the model and the routing improve.",
+          "size": "med"
+        }
+      ],
+      "background": {
+        "type": "field"
+      },
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "text_position": "top",
+      "sticker": null
+    },
+    {
+      "n": 4,
+      "role": "argument",
+      "continues": true,
+      "blocks": [
+        {
+          "text": "So a gross margin taken at month six describes a company that no longer exists by month eighteen.",
+          "size": "med",
+          "highlights": [
+            {
+              "text": "no longer exists",
+              "style": "underline"
+            }
+          ]
+        }
+      ],
+      "source_line": null,
+      "sticker": null
+    },
+    {
+      "n": 5,
+      "role": "evidence",
+      "blocks": [
+        {
+          "text": "Frontier model list pricing per million tokens has fallen by roughly an order of magnitude in two years."
+        },
+        {
+          "text": "None of that was in the plan when those margins were first modelled.",
+          "size": "med"
+        }
+      ],
+      "background": {
+        "type": "field"
+      },
+      "artifact": "diligence-margin-page-redacted.png",
+      "artifact_pos": "lower",
+      "source_line": "Published provider list pricing, 2024 to 2026. Not investment advice.",
+      "text_position": "top",
+      "sticker": null
+    },
+    {
+      "n": 6,
+      "role": "counter",
+      "blocks": [
+        {
+          "text": "The fair objection: treat it as R&D and you can hide a business that never had a margin."
+        },
+        {
+          "text": "True. Which is why we ask for unit economics at three model prices, not one.",
+          "size": "med",
+          "highlights": [
+            {
+              "text": "three model prices",
+              "style": "underline"
+            }
+          ]
+        }
+      ],
+      "background": {
+        "type": "field"
+      },
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "text_position": "top",
+      "sticker": null
+    },
+    {
+      "n": 7,
+      "role": "optional",
+      "continues": true,
+      "blocks": [
+        {
+          "text": "Cheap to test now. Expensive to discover after the raise."
+        }
+      ],
+      "source_line": null,
+      "sticker": null
+    }
+  ]
+}

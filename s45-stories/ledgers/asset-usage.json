@@ -1,0 +1,4 @@
+{
+  "_comment": "last-used date per asset, written by schedule.py on publish. Enforces the 14-day cooldown that makes daily cadence survivable.",
+  "assets": {}
+}

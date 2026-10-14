@@ -1,0 +1,51 @@
+{
+  "_comment": "Every value here should trace to something counsel said. entity_status stays TBD_BY_COUNSEL until it doesn't. See Q1 and Q2 at the top of the skill file.",
+  "jurisdiction": "IN",
+  "entity_status": "TBD_BY_COUNSEL",
+  "_registration_comment": "DEMO VALUES. Replace with the real registered name and number, exactly as registered - never abbreviated, never stylised. To see the hard stop fire, put the word PLACEHOLDER back into either field and run render.py.",
+  "sebi_registered_name": "S45 CAPITAL ADVISORS PRIVATE LIMITED",
+  "sebi_registration_numbers": [
+    "INM000000045"
+  ],
+  "identity_block_required": false,
+  "identity_block_scope": "frame_1_all_sequences",
+  "requires_pre_approval": true,
+  "approvers": [
+    "compliance@s45.example",
+    "partner@s45.example"
+  ],
+  "retention_days": 3650,
+  "disclosure_lines": {
+    "statistic": "Source shown. Not investment advice.",
+    "cta": "Not investment advice. No offer or solicitation to transact in securities."
+  },
+  "banned_terms": [
+    "guaranteed",
+    "assured returns",
+    "risk-free",
+    "we closed",
+    "our returns",
+    "multibagger",
+    "target price",
+    "buy call",
+    "sell call",
+    "tip",
+    "dm us",
+    "dm me",
+    "reach out"
+  ],
+  "banned_patterns": [
+    "\\b\\d+(\\.\\d+)?x\\s+(return|multiple)\\b",
+    "\\b(NSE|BSE|NIFTY|SENSEX)\\b",
+    "\\b[A-Z]{2,}\\s*:\\s*[A-Z]{2,}\\b"
+  ],
+  "listed_security_commentary_allowed": false,
+  "client_proof_allowed": false,
+  "testimonials_allowed": false,
+  "keyword_ctas_allowed": false,
+  "creator_collaborations_allowed": false,
+  "asset_cooldown_days": 14,
+  "min_frames": 5,
+  "max_frames": 7,
+  "_identity_block_note": "Switched off pending counsel's answer to Q2 (does the February 2026 social media disclosure circular apply to s45?). The registration values below are still DEMO values - INM000000045 is not a real number - so displaying the block right now would print a fabricated SEBI registration on frame 1, which is worse than printing nothing. Set this back to true and replace the values the moment counsel answers; the hard stop reactivates with it."
+}

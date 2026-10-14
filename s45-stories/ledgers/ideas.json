@@ -1,0 +1,40 @@
+{
+  "_comment": "The idea queue. Before building, write thirty topics. Six real reads a week is a genuine editorial commitment.",
+  "ideas": [
+    {
+      "id": "idea-1",
+      "title": "What a real data moat looks like when the model underneath commoditises",
+      "type": "thesis",
+      "status": "queued",
+      "note": "Argue the moat is distribution and workflow lock-in, not the weights."
+    },
+    {
+      "id": "idea-2",
+      "title": "Founders are being offered structure they do not price",
+      "type": "private_markets",
+      "status": "queued",
+      "note": "Liquidation preference and ratchets in this cycle's growth rounds. Unlisted only."
+    },
+    {
+      "id": "idea-3",
+      "title": "We were wrong about services revenue last quarter",
+      "type": "build",
+      "status": "queued",
+      "note": "Correction-of-ourselves hook. The strongest one we have."
+    },
+    {
+      "id": "idea-4",
+      "title": "The one page we ask every founder to fill in before a mandate",
+      "type": "cta",
+      "status": "queued",
+      "note": "Links to the research page. One cta this week, maximum."
+    },
+    {
+      "id": "idea-5",
+      "title": "Diligence practice is two years behind on inference cost",
+      "type": "thesis",
+      "status": "done",
+      "note": "Shipped as inference-cost-is-not-cogs."
+    }
+  ]
+}

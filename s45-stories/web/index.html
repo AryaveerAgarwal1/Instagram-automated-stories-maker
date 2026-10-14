@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Content Factory - s45 stories</title>
+<link rel="stylesheet" href="/web/styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%234f7fff'/><path d='M17 5 L9 18 h6 l-1 9 8-13 h-6 z' fill='white'/></svg>">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ================= sidebar ================= -->
+  <aside class="sidebar">
+    <div class="brandmark">
+      <div class="tile">
+        <svg viewBox="0 0 32 32" width="20" height="20" aria-hidden="true">
+          <path d="M18 4 L8 19 h6 l-2 9 10-15 h-6 z" fill="#fff"/>
+        </svg>
+      </div>
+      <div>
+        <div class="brandname">Content Factory</div>
+        <div class="brandsub">s45 &middot; story engine</div>
+      </div>
+    </div>
+
+    <div class="side-label">Account</div>
+    <div class="account" id="accountBox">
+      <span class="dot-user"></span>
+      <span id="accountHandle">@s45</span>
+      <span class="chev">&#9662;</span>
+    </div>
+
+    <nav class="nav" id="nav">
+      <button class="navitem active" data-view="stories">
+        <span class="ic">&#9645;</span> Stories
+      </button>
+      <button class="navitem" data-view="pipeline">
+        <span class="ic">&#9636;</span> Pipeline
+      </button>
+      <button class="navitem" data-view="library">
+        <span class="ic">&#9635;</span> Library
+      </button>
+      <button class="navitem" data-view="analytics">
+        <span class="ic">&#9638;</span> Analytics
+      </button>
+      <div class="navgap"></div>
+      <button class="navitem" data-view="compliance">
+        <span class="ic">&#9673;</span> Policy &amp; brand
+      </button>
+    </nav>
+
+    <div class="side-foot">
+      <div id="hardstopBadge" class="hardstop"></div>
+      <div class="conn"><span class="dot" id="connDot"></span> <span id="connText">connecting</span></div>
+    </div>
+  </aside>
+
+  <!-- ================= main ================= -->
+  <main class="main">
+
+    <header class="topbar">
+      <h1 id="viewTitle">Stories</h1>
+      <div class="topactions">
+        <button class="btn ghost" data-view-jump="library">Asset library</button>
+        <button class="btn ghost" id="queueIdeaBtn">Queue idea</button>
+        <button class="btn primary" id="newSeqBtn">+ New sequence</button>
+      </div>
+    </header>
+
+    <div class="views">
+
+      <!-- ---------- STORIES ---------- -->
+      <section class="view view-stories active" data-view="stories">
+        <div class="col-list">
+          <div class="panel">
+            <div class="panel-head">
+              <span>Sequences</span><span class="count" id="seqCount">0</span>
+            </div>
+            <div class="panel-body" id="seqList"></div>
+          </div>
+          <div class="panel">
+            <div class="panel-head">
+              <span>Idea queue</span><span class="count" id="ideaCount">0</span>
+            </div>
+            <div class="panel-body" id="ideaList"></div>
+          </div>
+        </div>
+
+        <div class="col-stage">
+          <div class="stage-head">
+            <h2 id="seqTitle">-</h2>
+            <div class="stage-meta" id="seqMeta"></div>
+            <div class="stage-actions">
+              <button class="btn ghost" id="renderAllBtn">Render all</button>
+              <button class="btn ghost" id="postOrderBtn">Post order</button>
+              <button class="btn ghost" id="approveBtn">Approve</button>
+              <button class="btn primary" id="scheduleBtn">Schedule</button>
+            </div>
+          </div>
+
+          <div class="stage-body">
+            <div class="phone" id="phone">
+              <img id="frameImg" alt="frame preview">
+              <div class="phone-empty" id="phoneEmpty">not rendered yet</div>
+            </div>
+          </div>
+
+          <div class="filmstrip" id="filmstrip"></div>
+        </div>
+
+        <div class="col-editor">
+          <div class="panel tall">
+            <div class="panel-head"><span>Frame editor</span>
+              <span class="count" id="frameBadge">-</span></div>
+            <div class="panel-body" id="editor"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- PIPELINE ---------- -->
+      <section class="view view-pipeline" data-view="pipeline">
+        <div class="pipeline" id="pipeline"></div>
+      </section>
+
+      <!-- ---------- LIBRARY ---------- -->
+      <section class="view view-library" data-view="library">
+        <div class="libwrap" id="library"></div>
+      </section>
+
+      <!-- ---------- ANALYTICS ---------- -->
+      <section class="view view-analytics" data-view="analytics">
+        <div class="analytics" id="analytics"></div>
+      </section>
+
+      <!-- ---------- COMPLIANCE ---------- -->
+      <section class="view view-compliance" data-view="compliance">
+        <div class="compliance" id="compliance"></div>
+      </section>
+
+    </div>
+  </main>
+</div>
+
+<!-- ================= modal ================= -->
+<div class="modal-back" id="modalBack">
+  <div class="modal">
+    <div class="modal-head"><span id="modalTitle">-</span>
+      <button class="x" id="modalClose">&times;</button></div>
+    <div class="modal-body" id="modalBody"></div>
+    <div class="modal-foot" id="modalFoot"></div>
+  </div>
+</div>
+
+<div class="toasts" id="toasts"></div>
+
+<script src="/web/app.js"></script>
+</body>
+</html>

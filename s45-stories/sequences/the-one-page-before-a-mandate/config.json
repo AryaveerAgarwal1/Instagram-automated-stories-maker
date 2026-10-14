@@ -1,0 +1,147 @@
+{
+  "slug": "the-one-page-before-a-mandate",
+  "type": "cta",
+  "ask": {
+    "shape": "link",
+    "destination": "s45.example/research/ai-revenue-quality",
+    "situation": "you are diligencing an AI-native company this quarter"
+  },
+  "scope_attestation": "private_markets_only",
+  "highlight_title": "How we think",
+  "profile": {
+    "handle": "@s45"
+  },
+  "frames": [
+    {
+      "n": 1,
+      "role": "hook",
+      "blocks": [
+        {
+          "text": "This is the one page we ask every founder to fill in before we take a mandate."
+        },
+        {
+          "text": "It is shorter than the deck and it decides more.",
+          "size": "med",
+          "highlights": [
+            {
+              "text": "decides more",
+              "style": "underline"
+            }
+          ]
+        }
+      ],
+      "background": {
+        "type": "note"
+      },
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "text_position": "top",
+      "sticker": null
+    },
+    {
+      "n": 2,
+      "role": "argument",
+      "continues": true,
+      "blocks": [
+        {
+          "text": "Where does revenue stop being a pilot and start being a contract."
+        }
+      ],
+      "source_line": null,
+      "sticker": null
+    },
+    {
+      "n": 3,
+      "role": "argument",
+      "blocks": [
+        {
+          "text": "Four questions. Revenue quality, cost behaviour, concentration, and what breaks if the model changes."
+        },
+        {
+          "text": "A founder who can answer all four is running a business, not a demo.",
+          "size": "med"
+        }
+      ],
+      "background": {
+        "type": "field"
+      },
+      "artifact": "checklist-ai-revenue.png",
+      "artifact_pos": "lower",
+      "source_line": null,
+      "text_position": "top",
+      "sticker": null
+    },
+    {
+      "n": 4,
+      "role": "argument",
+      "continues": true,
+      "blocks": [
+        {
+          "text": "Most of the value is in finding out which one you cannot answer yet.",
+          "size": "med"
+        }
+      ],
+      "source_line": null,
+      "sticker": null
+    },
+    {
+      "n": 5,
+      "role": "counter",
+      "blocks": [
+        {
+          "text": "The objection: a checklist flattens a business into four boxes."
+        },
+        {
+          "text": "It does. Its job is to find the box that is empty, not to describe the company.",
+          "size": "med"
+        }
+      ],
+      "background": {
+        "type": "field"
+      },
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "text_position": "top",
+      "sticker": null
+    },
+    {
+      "n": 6,
+      "role": "bridge",
+      "continues": true,
+      "blocks": [
+        {
+          "text": "If you are diligencing an AI-native company this quarter, you have already met this problem."
+        }
+      ],
+      "source_line": null,
+      "sticker": null
+    },
+    {
+      "n": 7,
+      "role": "cta",
+      "blocks": [
+        {
+          "text": "If you are diligencing an AI-native company this quarter, the AI revenue quality note is at the link."
+        },
+        {
+          "text": "No signup wall.",
+          "size": "med"
+        }
+      ],
+      "background": {
+        "type": "field"
+      },
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "text_position": "top",
+      "sticker": {
+        "kind": "link",
+        "destination": "s45.example/research/ai-revenue-quality",
+        "text": "The AI revenue quality note"
+      }
+    }
+  ]
+}

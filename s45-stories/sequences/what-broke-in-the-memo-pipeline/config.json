@@ -1,0 +1,145 @@
+{
+  "slug": "what-broke-in-the-memo-pipeline",
+  "type": "build",
+  "ask": null,
+  "scope_attestation": "private_markets_only",
+  "highlight_title": "Building s45",
+  "profile": {
+    "handle": "@s45"
+  },
+  "frames": [
+    {
+      "n": 1,
+      "role": "hook",
+      "blocks": [
+        {
+          "text": "Our memo pipeline produced a clean document that argued nothing."
+        },
+        {
+          "text": "I shipped it. That was the mistake.",
+          "size": "med",
+          "highlights": [
+            {
+              "text": "That was the mistake",
+              "style": "underline"
+            }
+          ]
+        }
+      ],
+      "background": {
+        "type": "note"
+      },
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "text_position": "top",
+      "sticker": null
+    },
+    {
+      "n": 2,
+      "role": "context",
+      "continues": true,
+      "blocks": [
+        {
+          "text": "Speed was never the problem. Judgement was."
+        }
+      ],
+      "source_line": null,
+      "sticker": null
+    },
+    {
+      "n": 3,
+      "role": "context",
+      "blocks": [
+        {
+          "text": "We built the drafting step first because it was the easy one to build."
+        },
+        {
+          "text": "It filled every section. It never once refused a weak section.",
+          "size": "med"
+        }
+      ],
+      "background": {
+        "type": "field"
+      },
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "text_position": "top",
+      "sticker": null
+    },
+    {
+      "n": 4,
+      "role": "detail",
+      "continues": true,
+      "blocks": [
+        {
+          "text": "So we inverted it. The pipeline now has to name what it could not evidence.",
+          "size": "med"
+        }
+      ],
+      "source_line": null,
+      "sticker": null
+    },
+    {
+      "n": 5,
+      "role": "detail",
+      "blocks": [
+        {
+          "text": "Every section now carries a confidence line and a list of what we asked for and did not get."
+        },
+        {
+          "text": "The gaps are the useful part of the document.",
+          "size": "med",
+          "highlights": [
+            {
+              "text": "the useful part",
+              "style": "underline"
+            }
+          ]
+        }
+      ],
+      "background": {
+        "type": "field"
+      },
+      "artifact": "memo-structure-outline.png",
+      "artifact_pos": "lower",
+      "source_line": null,
+      "text_position": "top",
+      "sticker": null
+    },
+    {
+      "n": 6,
+      "role": "learned",
+      "blocks": [
+        {
+          "text": "A tool that cannot say what it does not know will hand you a confident memo about nothing."
+        },
+        {
+          "text": "We were wrong to build the writing before the refusing.",
+          "size": "med"
+        }
+      ],
+      "background": {
+        "type": "field"
+      },
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "text_position": "top",
+      "sticker": null
+    },
+    {
+      "n": 7,
+      "role": "optional",
+      "continues": true,
+      "blocks": [
+        {
+          "text": "Rewritten on a Sunday. Better on the second pass."
+        }
+      ],
+      "source_line": null,
+      "sticker": null
+    }
+  ]
+}

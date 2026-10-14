@@ -1,0 +1,217 @@
+{
+  "_comment": "s45 Capital Markets Note house style. Deep teal field, grid, serif headline, mono labels. There is no photography in this system - every frame is drawn.",
+
+  "canvas": { "width": 1080, "height": 1920 },
+
+  "fonts": {
+    "sans": "assets/fonts/DejaVuSans.ttf",
+    "sans_bold": "assets/fonts/DejaVuSans-Bold.ttf",
+    "serif": "assets/fonts/DejaVuSerif.ttf",
+    "serif_bold": "assets/fonts/DejaVuSerif-Bold.ttf",
+    "mono": "assets/fonts/DejaVuSansMono.ttf",
+    "mono_bold": "assets/fonts/DejaVuSansMono-Bold.ttf"
+  },
+
+  "type_scale": {
+    "big": 72,
+    "med": 46,
+    "small": 36,
+    "kicker": 26,
+    "label": 24,
+    "metric_label": 22,
+    "metric_value": 46,
+    "metric_delta": 24,
+    "bullet": 30,
+    "signal": 32,
+    "signal_label": 28,
+    "chart_title": 30,
+    "chart_axis": 22,
+    "chart_value": 22,
+    "source": 26,
+    "disclosure": 24,
+    "identity": 26
+  },
+
+  "colors": {
+    "text": [245, 240, 225],
+    "text_dim": [245, 240, 225, 105],
+    "accent": [166, 200, 72],
+    "accent_dim": [166, 200, 72, 150],
+    "field_base": [7, 84, 74],
+    "field_deep": [4, 62, 55],
+    "field_rule": [166, 200, 72, 60],
+    "grid_line": [255, 255, 255, 22],
+    "card_fill": [4, 62, 55, 165],
+    "card_rule": [166, 200, 72, 70],
+    "positive": [166, 200, 72],
+    "negative": [232, 112, 90],
+    "neutral": [225, 214, 140],
+    "source": [245, 240, 225, 175],
+    "disclosure": [245, 240, 225, 185],
+    "identity": [245, 240, 225, 210]
+  },
+
+  "layout": {
+    "margin_x": 84,
+    "top_anchor_y": 330,
+    "center_anchor_y": 760,
+    "bottom_anchor_y": 1180,
+    "line_gap": 14,
+    "block_gap": 34,
+    "max_text_width": 912
+  },
+
+  "identity_block": {
+    "_comment": "Fixed. NOT overridable per sequence. This is the point.",
+    "position": "top_left",
+    "x": 84,
+    "y": 132,
+    "size_key": "identity",
+    "line_gap": 8,
+    "plate": true,
+    "plate_padding": 20,
+    "plate_opacity": 150,
+    "reserve_band_to_y": 264
+  },
+
+  "disclosure": {
+    "y": 1712,
+    "x": 84,
+    "size_key": "disclosure",
+    "column_gap": 40,
+    "label_size_key": "metric_label",
+    "sources_label": "DATA SOURCES",
+    "disclosure_label": "DISCLOSURE"
+  },
+
+  "_gradient_note": "There is no text-scrim gradient any more. It existed to rescue contrast over photographs; the field is drawn to a known colour, so contrast is guaranteed by construction rather than patched afterwards.",
+
+  "field": {
+    "_comment": "The teal field is the only background type. grid_* draws the graph paper, vignette_* the corner falloff.",
+    "grid_spacing": 60,
+    "grid_width": 1,
+    "grain_opacity": 7,
+    "grain_seed": 45,
+    "vignette_opacity": 90,
+    "vignette_feather": 620,
+    "rule_y": 1660,
+    "rule_inset": 84,
+    "mark_text": "S45",
+    "mark_x": 84,
+    "mark_y": 250,
+    "mark_size": 54,
+    "mark_sparkle": true,
+    "mark_opacity": 255,
+    "kicker_text": "S45  |  CAPITAL MARKETS NOTE",
+    "kicker_x": 996,
+    "kicker_y": 250,
+    "kicker_pad_x": 22,
+    "kicker_pad_y": 14,
+    "footer_mark_text": "s45",
+    "footer_mark_x": 84,
+    "footer_mark_y": 1856,
+    "footer_mark_size": 28,
+    "footer_mark_opacity": 120
+  },
+
+  "highlight": {
+    "thickness": 5,
+    "offset_below_baseline": 12,
+    "radius": 3
+  },
+
+  "headline": {
+    "_comment": "Serif, tight leading, second line in accent - the mockup's two-tone headline.",
+    "font": "serif_bold",
+    "line_height": 1.06,
+    "two_tone": true
+  },
+
+  "eyebrow": {
+    "_comment": "The mono 'WEEK ENDING 00 MONTH 2026' line above the headline.",
+    "size_key": "kicker",
+    "tracking": 3,
+    "gap_below": 26
+  },
+
+  "metric_cards": {
+    "height": 160,
+    "gap": 0,
+    "divider": true,
+    "corner_radius": 10,
+    "pad_x": 26,
+    "pad_y": 22,
+    "label_tracking": 2,
+    "value_font": "mono_bold",
+    "gap_above": 40,
+    "gap_below": 44,
+    "max_cards": 3
+  },
+
+  "bullet_list": {
+    "label_text": "WHAT CHANGED:",
+    "label_tracking": 4,
+    "gap_below_label": 26,
+    "dot_radius": 11,
+    "dot_x": 100,
+    "text_x": 148,
+    "row_gap": 20,
+    "connector": true,
+    "connector_dash": [6, 10],
+    "max_rows": 8
+  },
+
+  "signal_box": {
+    "label": "Signal:",
+    "border_radius": 12,
+    "border_width": 2,
+    "pad_x": 34,
+    "pad_y": 26,
+    "icon_radius": 24,
+    "icon_gap": 24,
+    "rule_gap": 26,
+    "gap_above": 36,
+    "max_lines": 3
+  },
+
+  "chart": {
+    "_comment": "Deterministic. Drawn from config.chart only - no network, no live data at render time.",
+    "width": 912,
+    "height": 520,
+    "pad_left": 96,
+    "pad_right": 24,
+    "pad_top": 76,
+    "pad_bottom": 76,
+    "grid_lines": 4,
+    "legend_height": 38,
+    "bar_gap_ratio": 0.34,
+    "bar_radius": 6,
+    "bar_max_width": 110,
+    "line_width": 5,
+    "point_radius": 9,
+    "value_labels": true,
+    "zero_line": true,
+    "gap_above": 40,
+    "gap_below": 34,
+    "max_points": 12,
+    "series_colors": [
+      [166, 200, 72],
+      [245, 240, 225],
+      [225, 214, 140],
+      [232, 112, 90]
+    ]
+  },
+
+  "artifact_card": {
+    "max_width": 720,
+    "max_upscale": 1.4,
+    "corner_radius": 22,
+    "shadow_blur": 26,
+    "shadow_opacity": 150,
+    "positions": {
+      "lower": [180, 1120],
+      "center": [180, 820],
+      "upper": [180, 560]
+    }
+  }
+}

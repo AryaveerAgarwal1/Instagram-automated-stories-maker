@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run the review app",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Render all sequences",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/render.py",
+      "args": ["--all"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Validate the week",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/render.py",
+      "args": ["--check-week", "sequences/"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

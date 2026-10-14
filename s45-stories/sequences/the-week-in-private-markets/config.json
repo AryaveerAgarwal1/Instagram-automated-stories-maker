@@ -1,0 +1,215 @@
+{
+  "slug": "the-week-in-private-markets",
+  "type": "private_markets",
+  "ask": null,
+  "scope_attestation": "private_markets_only",
+  "highlight_title": "Private markets",
+  "profile": {
+    "handle": "@s45"
+  },
+  "_note": "The reference sequence for the capital markets note template. Frame 1 is the mockup: eyebrow, two-tone serif headline, three-up metric row, WHAT CHANGED list, signal box, two-column footer. Every number here is illustrative and carries a source line - replace both before this goes anywhere near a post.",
+  "frames": [
+    {
+      "n": 1,
+      "role": "hook",
+      "eyebrow": "Week ending 26 July 2026",
+      "blocks": [
+        {
+          "text": "Rounds priced flat. The paper got heavier."
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Rounds closed",
+          "value": "41",
+          "delta": "-12.0% WoW",
+          "direction": "down"
+        },
+        {
+          "label": "Median size",
+          "value": "$14.0mn",
+          "delta": "+3.2% WoW",
+          "direction": "up"
+        },
+        {
+          "label": "Total raised",
+          "value": "₹980 Cr",
+          "delta": "22-26 Jul",
+          "direction": "flat"
+        }
+      ],
+      "bullets": [
+        "Structure appeared in 6 of 41 rounds, up from 2.",
+        "Median cheque flat; the change sits in the terms.",
+        "Two sectors took 60% of the total raised.",
+        "Bridges outnumbered priced rounds, third week running.",
+        "Secondaries stayed quiet - four transactions, all small.",
+        "One sector accounted for every down round this week.",
+        "Nothing in the week is a rates story."
+      ],
+      "signal": "Flat pricing with heavier structure is not a flat market. Read the terms, not the headline number.",
+      "background": {
+        "type": "note"
+      },
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "data_sources": "s45 deal tracker, week to 26 Jul 2026. Full sources in caption.",
+      "text_position": "top",
+      "sticker": null
+    },
+    {
+      "n": 2,
+      "role": "read",
+      "blocks": [
+        {
+          "text": "Six of forty-one is not a trend. Six against two is the start of one."
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Rounds carrying structure",
+        "unit": "%",
+        "labels": [
+          "Q1 25",
+          "Q2 25",
+          "Q3 25",
+          "Q4 25",
+          "Q1 26",
+          "Q2 26"
+        ],
+        "series": [
+          {
+            "values": [
+              4,
+              6,
+              9,
+              11,
+              14,
+              18
+            ]
+          }
+        ],
+        "source": "s45 deal tracker, 380 disclosed private rounds to 30 June 2026."
+      },
+      "signal": "The share has more than quadrupled in six quarters.",
+      "background": {
+        "type": "field"
+      },
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "text_position": "top",
+      "sticker": null
+    },
+    {
+      "n": 3,
+      "role": "mechanism",
+      "blocks": [
+        {
+          "text": "Structure is how an investor holds a valuation without believing it."
+        },
+        {
+          "text": "A preference stack, a ratchet and a participation right are all price.",
+          "size": "med",
+          "highlights": [
+            {
+              "text": "are all price",
+              "style": "underline"
+            }
+          ]
+        }
+      ],
+      "background": {
+        "type": "field"
+      },
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "text_position": "top",
+      "sticker": null
+    },
+    {
+      "n": 4,
+      "role": "mechanism",
+      "continues": true,
+      "blocks": [
+        {
+          "text": "None of them appear in the number a founder repeats at dinner.",
+          "size": "med"
+        }
+      ],
+      "source_line": null,
+      "sticker": null
+    },
+    {
+      "n": 5,
+      "role": "implication",
+      "blocks": [
+        {
+          "text": "One headline, three exits."
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Founder proceeds, $100mn headline",
+        "unit": "mn",
+        "labels": [
+          "Exit $60mn",
+          "Exit $100mn",
+          "Exit $180mn"
+        ],
+        "series": [
+          {
+            "name": "Clean round",
+            "values": [
+              18,
+              34,
+              66
+            ],
+            "color_index": 1
+          },
+          {
+            "name": "With 2x participating",
+            "values": [
+              2,
+              17,
+              49
+            ],
+            "color_index": 0
+          }
+        ],
+        "source": "s45 illustrative model. Structure only, not a specific transaction."
+      },
+      "background": {
+        "type": "field"
+      },
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "text_position": "top",
+      "sticker": null
+    },
+    {
+      "n": 6,
+      "role": "implication",
+      "blocks": [
+        {
+          "text": "If you are raising this quarter, model the exit at three outcomes, not one."
+        },
+        {
+          "text": "The term you skim is the one that decides what you keep.",
+          "size": "med"
+        }
+      ],
+      "background": {
+        "type": "field"
+      },
+      "artifact": null,
+      "artifact_pos": null,
+      "source_line": null,
+      "text_position": "top",
+      "sticker": null
+    }
+  ]
+}

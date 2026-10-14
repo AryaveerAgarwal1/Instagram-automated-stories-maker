@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+
+# rendered pixels are reproducible from config + assets; the archive is not
+sequences/*/frame_*.png
+sequences/*/post-order.md
+
+# never commit an approval or a publication record by accident
+sequences/*/approval.json
+sequences/*/schedule.json
